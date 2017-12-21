@@ -5865,7 +5865,49 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
+#topNavDesktop {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #E5E8E8;
+  width: 100%;
+  display: none; }
+  #topNavDesktop ul {
+    list-style-type: none;
+    display: inline;
+    margin: 0 auto;
+    width: 100%; }
+    #topNavDesktop ul li {
+      display: inline-block;
+      padding: 10px 20px 10px 20px;
+      margin-left: auto; }
+  @media (min-width: 768px) {
+    #topNavDesktop {
+      display: inline-block; } }
+
+@media (min-width: 768px) {
+  #topNavMobile {
+    display: none; } }
+
 body {
   font-family: 'Amatic SC', cursive;
   background-image: url(/../img/skin-shapes-bg.png);
   background-repeat: repeat; }
+
+.intro .intro-image-container .intro-image {
+  width: 100%; }
+
+.slider-container img {
+  height: 600px; }
+
+.product-row {
+  margin-bottom: 25px; }
+  .product-row product-img {
+    width: 100%; }
+
+.btn-default {
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px 20% 10px 20%; }

@@ -1,0 +1,35 @@
+//    (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px)
+
+
+#topNavDesktop {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: #E5E8E8;
+	width: 100%;
+	ul {
+		list-style-type: none;
+		display: inline;
+		margin: 0 auto;
+		width: 100%;
+	
+		li {
+			display: inline-block;
+			padding: 10px 20px 10px 20px;
+			margin-left: auto;
+		}
+	}
+	@include media-breakpoint-up(xs){
+		display: none;
+	}
+	@include media-breakpoint-up(md){
+		display: inline-block;
+	}
+}
+
+#topNavMobile {
+	@include media-breakpoint-up(md){
+		display: none;
+	}
+}

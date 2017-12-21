@@ -8,3 +8,10 @@
 @include media-breakpoint-up(md);
 @include media-breakpoint-up(lg);
 @include media-breakpoint-up(xl);
+
+.btn-default {
+	width: 100%;
+	text-align: center;
+	border: 1px solid black;
+	padding: 10px 20% 10px 20%;
+}
