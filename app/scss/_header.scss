@@ -1,12 +1,13 @@
 //    (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px)
+;
 
-
+//styles for the top nav desktop
 #topNavDesktop {
 	text-align: center;
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	background-color: #E5E8E8;
+	background-color: #efefef;
 	width: 100%;
 	ul {
 		list-style-type: none;
@@ -16,20 +17,62 @@
 	
 		li {
 			display: inline-block;
-			padding: 10px 20px 10px 20px;
+			padding: 10px 50px 10px 50px;
 			margin-left: auto;
+			font-size: 180%;
+			a {
+				color: #000;
+			}
 		}
 	}
-	@include media-breakpoint-up(xs){
+	@include media-breakpoint-up(xs) {
 		display: none;
 	}
-	@include media-breakpoint-up(md){
+	@include media-breakpoint-up(md) {
 		display: inline-block;
 	}
 }
 
+//styles for the top nav mobile
 #topNavMobile {
-	@include media-breakpoint-up(md){
+	@include media-breakpoint-up(md) {
 		display: none;
+	}
+	
+	background-color: $primary-color;
+	
+	.mobile-menu-toggle {
+		
+		padding-right: 25px;
+		margin-bottom: 25px;
+		font-size: 200%;
+	}
+	
+		ul {
+			text-align: center;	
+
+			li {
+				list-style: none;
+				line-height: 50px;
+				font-size: 200%;
+				color: #000;
+			}
+			.header-link-mobile {
+				color: #000;
+			}
+		}
+}
+
+
+//styles for the hero area
+.hero-area {
+	@include media-breakpoint-up(md) {
+		height: 50vh;
+		margin-bottom: 50px;
+	}
+	.hero-heading {
+		text-align: center;
+		margin: auto;
+		font-size: 120%;
 	}
 }

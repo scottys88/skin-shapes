@@ -4,6 +4,7 @@
 		<title>My SASS Project</title>
 		<link rel="stylesheet" href="css/app.css">
 		<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+		<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 	</head>
 	
 	<body>
@@ -11,19 +12,20 @@
 		
 			<div id="topNavDesktop">
 				<ul class="desktop-menu">
-					<li><a href="home.html">Home Desktop</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="shop.html">Shop</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li class="header-link"><a href="home.html">Home Desktop</a></li>
+					<li class="header-link"><a href="about.html">About</a></li>
+					<li class="header-link"><a href="shop.html">Shop</a></li>
+					<li class="header-link"><a href="contact.html">Contact</a></li>
 				</ul>
 			</div>
-			<div id="topNavMobile">
-				<div id="menuButton"></div>
-				<ul class="mobile-menu">
-					<li><a href="home.html">Home Mobile</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="shop.html">Shop</a></li>
-					<li><a href="contact.html">Contact</a></li>
+			
+			<div id="topNavMobile" class="clearfix">
+				<div id="menuButton clearfix"><i class="ion-navicon-round mobile-menu-toggle pull-left"></i></div>
+				<ul class="mobile-menu active ">
+					<li><a class="header-link-mobile" href="home.html">Home</a></li>
+					<li><a class="header-link-mobile" href="about.html">About</a></li>
+					<li><a class="header-link-mobile" href="shop.html">Shop</a></li>
+					<li><a class="header-link-mobile" href="tel:0431517709">Ph: 0431 517 709</a></li>
 				</ul>
 			</div>
 		<div class="container-fluid">
@@ -32,7 +34,7 @@
 			</div>
 			<div class="row intro">
 				<div class="col-md-5 offset-md-1 intro-para">
-					<h2>All are Welcome</h2>
+					<h2 class="intro-heading">All are Welcome</h2>
 					<p class="intro-text">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur iaculis interdum nisi. Fusce eu ornare magna. Nunc pellentesque nisl mauris, non molestie tellus commodo vitae. Duis posuere imperdiet maximus. Donec eu felis eget tellus sollicitudin mattis. Quisque hendrerit mollis tortor ut condimentum. Cras quis justo ultrices dolor lobortis commodo. Proin vel luctus orci. Duis vel cursus nunc. Vestibulum sollicitudin diam vel sem hendrerit, ac dictum dui congue. Sed facilisis odio at nisi ultrices sagittis. Donec faucibus, enim vitae efficitur accumsan, lorem mauris varius nisi, eu semper nunc odio sit amet mauris. Phasellus ut arcu quis magna dignissim suscipit ut non metus. Pellentesque ut diam lacinia, tincidunt quam sed, fringilla mi.
 					</p>
@@ -41,7 +43,7 @@
 					</p>
 				</div>
 				<div class="col-md-4 offset-md-1 intro-image-container">
-					<img class="intro-image" src="img/rainbow-flag-gay-lgbt-flag-heart-vector-7826518.jpg">				
+					<img class="intro-image" src="img/rainbow-heart.png">				
 				</div>
 			</div>
 			<div class="row slider-heading-container">
@@ -78,30 +80,66 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-3 offset-md-5">
-					<a href="#" class="btn-default">See all of our products</a>
+				<div class="col-md-3 offset-md-5 view-more-btn">
+					<a class="btn btn-primary primary-btn-override" href="#" >See all of our products</a>
 				</div>
 			</div>
-		
-		
-		
+			<div class="row contact-form-heading">
+				<div class="col-md-6 offset-md-3">
+					<h4>All of us are awesome. Keep in touch.</h4>
+				</div>
+			</div>
+			<div class="row contact-form">
+				<div class="col-md-6 offset-md-3">
+					<form class="home-contact">
+						<div class="form-group">
+							<label for="input-first-name">First Name</label>
+							<input type="text" id="input-first-name" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="input-last-name">Last Name</label>
+							<input type="text" id="input-last-name" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="input-email">Email</label>
+							<input type="email" id="input-email" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="input-feedback-box">Your feedback</label>
+							<textarea class="form-control" id="input-feedback-box" rows="5"></textarea>
+						</div>
+						<div class="form-check">
+							<label class="form-check-label">
+								<input class="form-check-input big-checkbox" type="checkbox" value="">
+								&nbsp; &nbsp; Sign up for the Skin Shapes newsletter
+							</label>
+						</div>
+						<button type="submit" class="btn btn-primary primary-btn-override">Let us know!</button>
+					</form>											
+				</div>
+			</div>
+			<div class="row footer-container">
+				<div class="col-md-3 offset-md-1 footer-content">
+					<p class="footer-link">	&copy; Website by Scoder</p>
+				</div>
+				<div class="col-md-3 offset-md-1 shipping-privacy footer-content">
+					<a href="#" class="footer-link">Shipping</a>
+					<span> | </span>
+					<a href="#" class="footer-link">Privacy</a>
+				</div>
+				<div class="col-md-3 offset-md-1">
+					<div class="row">
+						<div class="col-md-6 social-links "><img class="footer-social-icon footer-content" src="img/Instagram_icon.png" ><img class="footer-social-icon footer-content" src="img/facebook_circle_color-256.png"></div>
+					</div>
+				</div>
+			</div>
+			
 		
 		
 		
 		
 		</div>
-			
-		
-		
-			<footer>
-					<ul>
-						<li><a href="#">Website by Scoder</a></li>
-						<li><a href="#">Shipping</a></li>
-						<li><a href="#">Privacy</a></li>
-					</ul>		
-			</footer>
-		
-		
+				
 	
 	</body>
 

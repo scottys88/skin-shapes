@@ -1,0 +1,43 @@
+
+$primary-color: #F1B861;
+
+.btn-default {
+	width: 100%;
+	text-align: center;
+	border: 1px solid black;
+	padding: 10px 20% 10px 20%;
+}
+
+p {
+	font-size: 130%;
+}
+
+h1 {
+	font-size: 5em;
+}
+
+h2 {
+	font-size: 300%;
+	font-weight: 600;
+}
+
+h3, h4 {
+	font-size: 250%;
+	font-weight: 600;
+	margin: 50px 0 50px 0;
+}
+
+.primary-btn-override {
+	font-size: 200%;
+	width: 50%;
+	background-color: #F1B861;
+	border-color: #d18e28;
+	padding: 20px 0 20px 0;
+
+}
+
+	
+.primary-btn-override:hover {
+	background-color: #eb9e28;
+	border-color: #d18e28;
+}

@@ -1,7 +1,9 @@
 @import "bootstrap";
+@import "_site-options";
 @import "_header";
 @import "_body";
 @import "_footer";
+
 
 @include media-breakpoint-up(xs);
 @include media-breakpoint-up(sm);
@@ -9,9 +11,6 @@
 @include media-breakpoint-up(lg);
 @include media-breakpoint-up(xl);
 
-.btn-default {
-	width: 100%;
-	text-align: center;
-	border: 1px solid black;
-	padding: 10px 20% 10px 20%;
-}
+
+
+
