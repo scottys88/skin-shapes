@@ -42,20 +42,25 @@
 	background-color: $primary-color;
 	
 	.mobile-menu-toggle {
-		
+		float: right;
 		padding-right: 25px;
-		margin-bottom: 25px;
 		font-size: 200%;
 	}
 	
-		ul {
+		ul.mobile-menu.inactive {
+			display: none;
+		}
+		ul.mobile-menu.active {
 			text-align: center;	
-
+			height: 100vh;
+			margin: auto;
 			li {
 				list-style: none;
 				line-height: 50px;
 				font-size: 200%;
 				color: #000;
+				border-bottom: 1px solid #ffff72;
+				padding: 10px 0 10px 0;
 			}
 			.header-link-mobile {
 				color: #000;

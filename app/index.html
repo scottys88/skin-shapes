@@ -5,6 +5,7 @@
 		<link rel="stylesheet" href="css/app.css">
 		<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 		<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	
 	<body>
@@ -20,8 +21,8 @@
 			</div>
 			
 			<div id="topNavMobile" class="clearfix">
-				<div id="menuButton clearfix"><i class="ion-navicon-round mobile-menu-toggle pull-left"></i></div>
-				<ul class="mobile-menu active ">
+				<div class="menuButton"><i class="ion-navicon-round mobile-menu-toggle pull-left"></i></div>
+				<ul class="mobile-menu inactive">
 					<li><a class="header-link-mobile" href="home.html">Home</a></li>
 					<li><a class="header-link-mobile" href="about.html">About</a></li>
 					<li><a class="header-link-mobile" href="shop.html">Shop</a></li>
@@ -37,9 +38,6 @@
 					<h2 class="intro-heading">All are Welcome</h2>
 					<p class="intro-text">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur iaculis interdum nisi. Fusce eu ornare magna. Nunc pellentesque nisl mauris, non molestie tellus commodo vitae. Duis posuere imperdiet maximus. Donec eu felis eget tellus sollicitudin mattis. Quisque hendrerit mollis tortor ut condimentum. Cras quis justo ultrices dolor lobortis commodo. Proin vel luctus orci. Duis vel cursus nunc. Vestibulum sollicitudin diam vel sem hendrerit, ac dictum dui congue. Sed facilisis odio at nisi ultrices sagittis. Donec faucibus, enim vitae efficitur accumsan, lorem mauris varius nisi, eu semper nunc odio sit amet mauris. Phasellus ut arcu quis magna dignissim suscipit ut non metus. Pellentesque ut diam lacinia, tincidunt quam sed, fringilla mi.
-					</p>
-					<p class="intro-text">
-						Suspendisse pellentesque vel sem ut lacinia. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi auctor accumsan sagittis. In vitae convallis velit. Duis rutrum, lorem sed pellentesque mattis, odio justo ultrices nisi, at rhoncus metus nisl tristique lorem. Curabitur nec placerat ligula. Pellentesque odio libero, interdum a posuere et, tincidunt ut ex. In semper viverra est. Nunc pellentesque eu elit eu mattis.
 					</p>
 				</div>
 				<div class="col-md-4 offset-md-1 intro-image-container">
@@ -81,7 +79,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-3 offset-md-5 view-more-btn">
-					<a class="btn btn-primary primary-btn-override" href="#" >See all of our products</a>
+					<a class="btn btn-primary primary-btn-override" href="#" style="margin-bottom:4px;white-space: normal;">See all of our products</a>
 				</div>
 			</div>
 			<div class="row contact-form-heading">
@@ -119,18 +117,18 @@
 				</div>
 			</div>
 			<div class="row footer-container">
-				<div class="col-md-3 offset-md-1 footer-content">
-					<p class="footer-link">	&copy; Website by Scoder</p>
-				</div>
 				<div class="col-md-3 offset-md-1 shipping-privacy footer-content">
 					<a href="#" class="footer-link">Shipping</a>
 					<span> | </span>
 					<a href="#" class="footer-link">Privacy</a>
 				</div>
-				<div class="col-md-3 offset-md-1">
+				<div class="col-md-3  offset-md-1">
 					<div class="row">
-						<div class="col-md-6 social-links "><img class="footer-social-icon footer-content" src="img/Instagram_icon.png" ><img class="footer-social-icon footer-content" src="img/facebook_circle_color-256.png"></div>
+						<div class="col-md-6 col-xs-4 offset-xs-4 social-links "><img class="footer-social-icon footer-content" src="img/Instagram_icon.png" ><img class="footer-social-icon footer-content" src="img/facebook_circle_color-256.png"></div>
 					</div>
+				</div>
+				<div class="col-md-3 offset-md-1 footer-content">
+					<p class="footer-link">	&copy; Website by Scoder</p>
 				</div>
 			</div>
 			
@@ -139,7 +137,9 @@
 		
 		
 		</div>
-				
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="js/scripts.js"></script>	
 	
 	</body>
 

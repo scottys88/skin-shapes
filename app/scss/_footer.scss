@@ -18,12 +18,21 @@
 		margin: auto 0;
 	}
 	.social-links {
+		@include media-breakpoint-up(xs){
+			text-align: center;
+			margin: 15px 0 15px 0;
+			}
+		
 		.footer-social-icon {
 			@include media-breakpoint-up(md) {
 				width: 50%;
 				padding: 20px 0 20px 20px;
 
 				}
+			@include media-breakpoint-up(xs) {
+				padding-left: 5px;
+				width: 15%;
+			}
 			}
 		
 	}

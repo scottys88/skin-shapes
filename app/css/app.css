@@ -5927,17 +5927,23 @@ h3, h4 {
     #topNavMobile {
       display: none; } }
   #topNavMobile .mobile-menu-toggle {
+    float: right;
     padding-right: 25px;
-    margin-bottom: 25px;
     font-size: 200%; }
-  #topNavMobile ul {
-    text-align: center; }
-    #topNavMobile ul li {
+  #topNavMobile ul.mobile-menu.inactive {
+    display: none; }
+  #topNavMobile ul.mobile-menu.active {
+    text-align: center;
+    height: 100vh;
+    margin: auto; }
+    #topNavMobile ul.mobile-menu.active li {
       list-style: none;
       line-height: 50px;
       font-size: 200%;
-      color: #000; }
-    #topNavMobile ul .header-link-mobile {
+      color: #000;
+      border-bottom: 1px solid #ffff72;
+      padding: 10px 0 10px 0; }
+    #topNavMobile ul.mobile-menu.active .header-link-mobile {
       color: #000; }
 
 @media (min-width: 768px) {
@@ -5953,7 +5959,8 @@ h3, h4 {
 body {
   font-family: 'Amatic SC', cursive;
   background-image: url(/../img/skin-shapes-bg.png);
-  background-repeat: repeat; }
+  background-repeat: repeat;
+  overflow-x: hidden; }
 
 .intro .intro-para .intro-heading {
   font-weight: 600; }
@@ -5961,17 +5968,23 @@ body {
 .intro .intro-para .intro-text {
   font-size: 130%; }
 
-.intro .intro-image-container .intro-image {
-  height: 100%; }
+.intro .intro-image-container {
+  text-align: center; }
+  .intro .intro-image-container .intro-image {
+    height: 100%; }
 
 .slider-container img {
-  height: 600px; }
+  width: 100%; }
+  @media (min-width: 768px) {
+    .slider-container img {
+      height: 600px; } }
 
 .product-row {
   margin: 50px 0 50px 0;
   margin-bottom: 25px; }
   .product-row img {
-    width: 100%; }
+    width: 100%;
+    margin-top: 20px; }
 
 .view-more-btn {
   text-align: center; }
@@ -6002,7 +6015,13 @@ body {
     text-align: center;
     font-size: 180%;
     margin: auto 0; }
-  @media (min-width: 768px) {
+  .footer-container .social-links {
+    text-align: center;
+    margin: 15px 0 15px 0; }
     .footer-container .social-links .footer-social-icon {
-      width: 50%;
-      padding: 20px 0 20px 20px; } }
+      padding-left: 5px;
+      width: 15%; }
+      @media (min-width: 768px) {
+        .footer-container .social-links .footer-social-icon {
+          width: 50%;
+          padding: 20px 0 20px 20px; } }
