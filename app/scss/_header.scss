@@ -9,6 +9,8 @@
 	text-align: center;
 	background-color: #efefef;
 	width: 100%;
+	position: fixed;
+	z-index: 999;
 	ul {
 		list-style-type: none;
 		display: inline;
@@ -39,6 +41,7 @@
 		display: none;
 	}
 	
+	z-index: 999;
 	background-color: $primary-color;
 	
 	.mobile-menu-toggle {
@@ -54,6 +57,7 @@
 			text-align: center;	
 			height: 100vh;
 			margin: auto;
+			padding-left: 0;
 			li {
 				list-style: none;
 				line-height: 50px;
@@ -61,9 +65,18 @@
 				color: #000;
 				border-bottom: 1px solid #ffff72;
 				padding: 10px 0 10px 0;
+				p.mobile-menu-p {
+					padding: 20px 0 20px 0;
+					
+				}
+				
 			}
 			.header-link-mobile {
 				color: #000;
+			}
+			.mobile-menu-icon {
+				float: left;
+				padding-left: 20px;
 			}
 		}
 }
