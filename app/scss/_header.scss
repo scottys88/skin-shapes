@@ -95,7 +95,7 @@
 		
 		
 	}
-	.hero-heading  {
+	.hero-heading, .sub-hero-heading  {
 		text-align: center;
 		font-size: 120%;
 		
@@ -121,5 +121,24 @@
 					margin-right: auto;
 				}
 			}
+	}
+}
+
+
+//Shop page hero header
+
+.sub-hero-area {
+	text-align: center;
+	background: linear-gradient(#EFEFEF, #fff);
+	.sub-hero-heading {
+		@include media-breakpoint-up(md) {
+			font-size: 120%;
+			margin-top: 200px;
+			margin-bottom: 200px;
+		}
+		@include media-breakpoint-up(xs) {
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
 	}
 }

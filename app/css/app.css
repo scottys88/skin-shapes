@@ -5872,7 +5872,7 @@ a.text-dark:focus, a.text-dark:hover {
   padding: 10px 20% 10px 20%; }
 
 p {
-  font-size: 130%; }
+  font-size: 180%; }
 
 h1 {
   font-size: 5em; }
@@ -5964,23 +5964,35 @@ h3, h4 {
     .hero-area {
       height: auto;
       margin-bottom: 50px; } }
-  .hero-area .hero-heading {
+  .hero-area .hero-heading, .hero-area .sub-hero-heading {
     text-align: center;
     font-size: 120%; }
-    .hero-area .hero-heading h1 {
+    .hero-area .hero-heading h1, .hero-area .sub-hero-heading h1 {
       display: none; }
-    .hero-area .hero-heading img {
+    .hero-area .hero-heading img, .hero-area .sub-hero-heading img {
       height: auto;
       width: 100%;
       padding: 20px; }
       @media (min-width: 768px) {
-        .hero-area .hero-heading img {
+        .hero-area .hero-heading img, .hero-area .sub-hero-heading img {
           width: auto;
           margin-top: 100px;
           text-align: center;
           display: block;
           margin-left: auto;
           margin-right: auto; } }
+
+.sub-hero-area {
+  text-align: center;
+  background: linear-gradient(#EFEFEF, #fff); }
+  .sub-hero-area .sub-hero-heading {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+    @media (min-width: 768px) {
+      .sub-hero-area .sub-hero-heading {
+        font-size: 120%;
+        margin-top: 200px;
+        margin-bottom: 200px; } }
 
 body {
   font-family: 'Amatic SC', cursive;
@@ -5998,9 +6010,6 @@ body {
 
 .intro .intro-para .intro-heading {
   font-weight: 600; }
-
-.intro .intro-para .intro-text {
-  font-size: 130%; }
 
 .intro .intro-image-container {
   text-align: center; }
@@ -6085,7 +6094,8 @@ img {
   text-align: center; }
 
 .home-contact button {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 20px; }
 
 .home-contact label {
   font-size: 150%; }
@@ -6097,6 +6107,18 @@ img {
 
 .home-contact .form-submit {
   width: 50%; }
+
+.content-page {
+  text-align: center;
+  margin-bottom: auto; }
+  @media (min-width: 768px) {
+    .content-page {
+      margin-bottom: 50px; } }
+  .content-page .p-image {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 20px 0 20px 0; }
 
 .footer-container {
   margin-top: 10vh;

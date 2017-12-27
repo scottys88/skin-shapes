@@ -6,6 +6,7 @@ body {
 	animation-duration: infinite;
 	animation-name: background;
 	animation: background 60s linear infinite;
+	
 
 }
 
@@ -26,7 +27,7 @@ body {
 			font-weight: 600;
 		}
 		.intro-text {
-			font-size: 130%;
+			
 		}
 	}
 	.intro-image-container {
@@ -166,6 +167,7 @@ body {
 .home-contact {
 	button {
 		text-align: center;
+		margin-bottom: 20px;
 	}
 	label {
 		font-size: 150%;
@@ -180,3 +182,21 @@ body {
 	}
 
 }
+
+
+//About page
+
+.content-page {
+	text-align: center;
+	margin-bottom: auto;
+	@include media-breakpoint-up(md) {
+		margin-bottom: 50px;
+	}
+	.p-image {
+		width: 100%;
+		height: auto;
+		text-align: center;
+		padding: 20px 0 20px 0;
+	}
+}
+
