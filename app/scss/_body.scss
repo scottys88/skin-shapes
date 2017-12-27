@@ -70,7 +70,7 @@ body {
 
 .slider-buttons {
 	font-size: 500%;
-	z-index: 999;
+	z-index: 998;
 
 	.left-arrow, .right-arrow {
 	@include media-breakpoint-up(xs) {

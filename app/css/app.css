@@ -6032,7 +6032,7 @@ img {
 
 .slider-buttons {
   font-size: 500%;
-  z-index: 999; }
+  z-index: 998; }
   .slider-buttons .left-arrow, .slider-buttons .right-arrow {
     width: 50%;
     text-align: center; }
