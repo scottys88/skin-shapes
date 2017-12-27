@@ -16,7 +16,7 @@
 		display: inline;
 		margin: 0 auto;
 		width: 100%;
-	
+
 		li {
 			display: inline-block;
 			padding: 10px 50px 10px 50px;
@@ -40,21 +40,21 @@
 	@include media-breakpoint-up(md) {
 		display: none;
 	}
-	
+
 	z-index: 999;
 	background-color: $primary-color;
-	
+
 	.mobile-menu-toggle {
 		float: right;
 		padding-right: 25px;
 		font-size: 200%;
 	}
-	
+
 		ul.mobile-menu.inactive {
 			display: none;
 		}
 		ul.mobile-menu.active {
-			text-align: center;	
+			text-align: center;
 			height: 100vh;
 			margin: auto;
 			padding-left: 0;
@@ -67,9 +67,9 @@
 				padding: 10px 0 10px 0;
 				p.mobile-menu-p {
 					padding: 20px 0 20px 0;
-					
+
 				}
-				
+
 			}
 			.header-link-mobile {
 				color: #000;
@@ -84,9 +84,15 @@
 
 //styles for the hero area
 .hero-area {
+	background-image: url('../img/background-image.png');
+	background-size: contain;
+	background-repeat: no-repeat;
 	@include media-breakpoint-up(md) {
-		height: 50vh;
+		height: 70vh;
 		margin-bottom: 50px;
+		background-image: url('../img/background-image.png');
+		background-size: contain;
+		background-repeat: no-repeat;
 	}
 	.hero-heading {
 		text-align: center;

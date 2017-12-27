@@ -5958,15 +5958,21 @@ h3, h4 {
       float: left;
       padding-left: 20px; }
 
-@media (min-width: 768px) {
-  .hero-area {
-    height: 50vh;
-    margin-bottom: 50px; } }
-
-.hero-area .hero-heading {
-  text-align: center;
-  margin: auto;
-  font-size: 120%; }
+.hero-area {
+  background-image: url("../img/background-image.png");
+  background-size: contain;
+  background-repeat: no-repeat; }
+  @media (min-width: 768px) {
+    .hero-area {
+      height: 70vh;
+      margin-bottom: 50px;
+      background-image: url("../img/background-image.png");
+      background-size: contain;
+      background-repeat: no-repeat; } }
+  .hero-area .hero-heading {
+    text-align: center;
+    margin: auto;
+    font-size: 120%; }
 
 body {
   font-family: 'Amatic SC', cursive;

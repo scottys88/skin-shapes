@@ -8,10 +8,10 @@
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
-	
+
 	<body>
-	
-		
+
+
 			<div id="topNavDesktop">
 				<ul class="desktop-menu">
 					<li class="header-link"><a href="home.html">Home</a></li>
@@ -20,7 +20,7 @@
 					<li class="header-link"><a href="contact.html">Contact</a></li>
 				</ul>
 			</div>
-			
+
 			<div id="topNavMobile" class="clearfix">
 				<div class="menuButton pull-right"><i class="ion-navicon-round mobile-menu-toggle pull-left"></i></div>
 				<br><ul class="mobile-menu inactive">
@@ -30,29 +30,155 @@
 					<li><a class="header-link-mobile" href="tel:0431517709"><i class="ion-android-call mobile-menu-icon"></i>Ph: 0431 517 709</a></li>
 					<li><p class="mobile-menu-p">All shapes, all sizes, all inclusive.</p></li>
 				</ul>
-				
+
 			</div>
 		<div class="container-fluid">
 			<div class="row hero-area">
-				<div class="col-xs-12 hero-heading"><h1>Skin Shapes</h1></div>			
+				<div class="col-xs-12 hero-heading"><h1>Skin Shapes</h1></div>
 			</div>
 			<div class="row intro">
 				<div class="col-md-5 offset-md-1 intro-para">
 					<h2 class="intro-heading">All are Welcome</h2>
 					<p class="intro-text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur iaculis interdum nisi. Fusce eu ornare magna. Nunc pellentesque nisl mauris, non molestie tellus commodo vitae. Duis posuere imperdiet maximus. Donec eu felis eget tellus sollicitudin mattis. Quisque hendrerit mollis tortor ut condimentum. Cras quis justo ultrices dolor lobortis commodo. Proin vel luctus orci. Duis vel cursus nunc. Vestibulum sollicitudin diam vel sem hendrerit, ac dictum dui congue. Sed facilisis odio at nisi ultrices sagittis. Donec faucibus, enim vitae efficitur accumsan, lorem mauris varius nisi, eu semper nunc odio sit amet mauris. Phasellus ut arcu quis magna dignissim suscipit ut non metus. Pellentesque ut diam lacinia, tincidunt quam sed, fringilla mi.
+						Skin Shapes is handmade South Australian clothing that anyone and everyone can wear with confidence and comfort. We aim to give people a safe, secure place to find clothes they want to wear, clothes that do not dictate nor isolate. Skin Shapes strives to provide clothing that caters to as many body types, gender identities and sizes as possible.
 					</p>
 				</div>
 				<div class="col-md-4 offset-md-1 intro-image-container">
-					<img class="intro-image" src="img/rainbow-heart.png">				
+					<img class="intro-image" src="img/rainbow-heart.png">
+				</div>
+			</div>
+			<div class="row product-intro-text">
+				<div class="col-md-5 offset-md-1">
+					<h4>All our Fabric is for fun</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur iaculis interdum nisi. Fusce eu ornare magna. </p>
+				</div>
+			</div>
+			<div class="row product-row">
+				<div class="col-md-3 offset-md-1">
+						<div id='product-component-8cc52ba841c'></div>
+								<script type="text/javascript">
+								/*<![CDATA[*/
+
+								(function () {
+								  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+								  if (window.ShopifyBuy) {
+								    if (window.ShopifyBuy.UI) {
+								      ShopifyBuyInit();
+								    } else {
+								      loadScript();
+								    }
+								  } else {
+								    loadScript();
+								  }
+
+								  function loadScript() {
+								    var script = document.createElement('script');
+								    script.async = true;
+								    script.src = scriptURL;
+								    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+								    script.onload = ShopifyBuyInit;
+								  }
+
+								  function ShopifyBuyInit() {
+								    var client = ShopifyBuy.buildClient({
+								      domain: 'skin-shapes.myshopify.com',
+								      apiKey: 'a700d23acaed7efc9ece2fc54dbc3036',
+								      appId: '6',
+								    });
+
+								    ShopifyBuy.UI.onReady(client).then(function (ui) {
+								      ui.createComponent('product', {
+								        id: [627476922411],
+								        node: document.getElementById('product-component-8cc52ba841c'),
+								        moneyFormat: '%24%7B%7Bamount%7D%7D',
+								        options: {
+								  "product": {
+								    "variantId": "all",
+								    "width": "240px",
+								    "contents": {
+								      "imgWithCarousel": false,
+								      "variantTitle": false,
+								      "description": false,
+								      "buttonWithQuantity": false,
+								      "quantity": false
+								    },
+								    "styles": {
+								      "product": {
+								        "@media (min-width: 601px)": {
+								          "max-width": "100%",
+								          "margin-left": "0",
+								          "margin-bottom": "50px"
+								        }
+								      },
+								      "compareAt": {
+								        "font-size": "12px"
+								      }
+								    }
+								  },
+								  "cart": {
+								    "contents": {
+								      "button": true
+								    },
+								    "styles": {
+								      "footer": {
+								        "background-color": "#ffffff"
+								      }
+								    }
+								  },
+								  "modalProduct": {
+								    "contents": {
+								      "img": false,
+								      "imgWithCarousel": true,
+								      "variantTitle": false,
+								      "buttonWithQuantity": true,
+								      "button": false,
+								      "quantity": false
+								    },
+								    "styles": {
+								      "product": {
+								        "@media (min-width: 601px)": {
+								          "max-width": "100%",
+								          "margin-left": "0px",
+								          "margin-bottom": "0px"
+								        }
+								      }
+								    }
+								  },
+								  "productSet": {
+								    "styles": {
+								      "products": {
+								        "@media (min-width: 601px)": {
+								          "margin-left": "-20px"
+								        }
+								      }
+								    }
+								  }
+								}
+								      });
+								    });
+								  }
+								})();
+								/*]]>*/
+								</script>
+				</div>
+				<div class="col-md-3 offset-md-1">
+					<img class="product-img" src="img/product-image.png">
+				</div>
+				<div class="col-md-3 offset-md-1">
+					<img class="product-img" src="img/product-image.png">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 offset-md-5 view-more-btn">
+					<a class="btn btn-primary primary-btn-override" href="#" style="margin-bottom:4px;white-space: normal;">See all of our products</a>
 				</div>
 			</div>
 			<div class="row slider-heading-container">
 				<div class="col-md-5 offset-md-1 slider-heading">
 					<h3>All the exciting things</h3>
-				</div>	
+				</div>
 			</div>
-			
+
 			<div class="row slider-container" id="slider-container">
 				<!--<div>
 					<img src="img/20905178_298813743927719_526571709273210880_n.jpg">
@@ -70,28 +196,6 @@
 				</div>
 				<div class="col-xs-6 col-md-1 offset-md-4 right-arrow">
 					<i class="ion-chevron-right arrow"></i></div>
-			</div>
-			<div class="row product-intro-text">
-				<div class="col-md-5 offset-md-1">
-					<h4>All our Fabric is for fun</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur iaculis interdum nisi. Fusce eu ornare magna. </p>
-				</div>
-			</div>
-			<div class="row product-row">
-				<div class="col-md-3 offset-md-1">
-					<img class="product-img" src="img/product-image.png">
-				</div>
-				<div class="col-md-3 offset-md-1">
-					<img class="product-img" src="img/product-image.png">
-				</div>
-				<div class="col-md-3 offset-md-1">
-					<img class="product-img" src="img/product-image.png">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-3 offset-md-5 view-more-btn">
-					<a class="btn btn-primary primary-btn-override" href="#" style="margin-bottom:4px;white-space: normal;">See all of our products</a>
-				</div>
 			</div>
 			<div class="row contact-form-heading">
 				<div class="col-md-6 offset-md-3">
@@ -124,7 +228,7 @@
 							</label>
 						</div>
 						<button type="submit" class="btn btn-primary primary-btn-override form-submit">Let us know!</button>
-					</form>											
+					</form>
 				</div>
 			</div>
 			<div class="row footer-container">
@@ -135,12 +239,12 @@
 				</div>
 				<div class="col-md-3 offset-md-1">
 					<div class="row">
-						
-						
+
+
 						<div class="col-md-6 col-xs-6 social-links ">					<img class="footer-social-icon footer-content" src="img/Instagram_icon.png" >
 						</div>
-							
-						<div class="col-md-6 col-xs-6 social-links ">	
+
+						<div class="col-md-6 col-xs-6 social-links ">
 							<img class="footer-social-icon footer-content" src="img/facebook_circle_color-256.png">
 						</div>
 					</div>
@@ -149,31 +253,31 @@
 					<p class="footer-link">	&copy; Website by Scoder</p>
 				</div>
 			</div>
-			
-		
+
+
 <!--			<div class="col-md-3 offset-md-1">
 					<div class="row">
-						
-						
+
+
 						<div class="col-md-6 col-xs-6 offset-xs-3 social-links ">					<img class="footer-social-icon footer-content" src="img/Instagram_icon.png" >
 						</div>
-							
-						<div class="col-md-6 col-xs-6 offset-xs-3 social-links ">	
+
+						<div class="col-md-6 col-xs-6 offset-xs-3 social-links ">
 							<img class="footer-social-icon footer-content" src="img/facebook_circle_color-256.png">
 						</div>
 					</div>
 				</div>
 		-->
-		
-		
+
+
 		</div>
 		<script src="js/js-vendors/instafeed.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<script src="js/scripts.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-		
-				
-	
+
+
+
 	</body>
 
 </html>
