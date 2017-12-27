@@ -6014,9 +6014,6 @@ body {
   border-top: 10px solid #FF96FF;
   border-bottom: 10px solid #FF96FF;
   background-color: #EFEFEF; }
-  .slider-container .img1 {
-    background-image: url(../img/20905178_298813743927719_526571709273210880_n.jpg);
-    background-size: contain; }
 
 img {
   width: 100%; }
@@ -6049,13 +6046,42 @@ img {
   opacity: 1; }
 
 .product-row {
-  margin: 50px 0 50px 0;
-  margin-bottom: 25px; }
+  margin: 0; }
+  .product-row .img-container-1 {
+    background-image: url(../img/blue-shirt-2.png);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    height: 500px; }
+    @media (min-width: 768px) {
+      .product-row .img-container-1 {
+        background-position: center center;
+        background-repeat: repeat;
+        height: 1000px; } }
+  .product-row .img-container-2 {
+    background-image: url(../img/shot-2.png);
+    height: 1000px;
+    background-position: center center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    height: 500px;
+    background-position: left center; }
+  .product-row .img-container-3 {
+    background-image: url(../img/shot-3.png);
+    height: 1000px;
+    background-position: center center;
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    height: 500px;
+    background-position: left center; }
   .product-row img {
     width: 100%;
     margin-top: 20px; }
 
 .view-more-btn {
+  margin-top: 25px;
   text-align: center; }
 
 .home-contact button {

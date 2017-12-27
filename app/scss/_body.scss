@@ -55,10 +55,6 @@ body {
 	border-top: 10px solid #FF96FF;
 	border-bottom: 10px solid #FF96FF;
 	background-color: #EFEFEF;
-	.img1 {
-		background-image: url(../img/20905178_298813743927719_526571709273210880_n.jpg);
-		background-size: contain;
-	}
 	}
 	img {
 		@include media-breakpoint-up(xs) {
@@ -108,19 +104,59 @@ body {
 
 //styles to manage the product layouts shown
 .product-row {
-	margin: 50px 0 50px 0;
+	margin: 0;
+	.img-container-1 {
+		background-image: url(../img/blue-shirt-2.png);
+		background-size: cover;
+		padding: 0;
+		margin: 0;
+			@include media-breakpoint-up(md) {
+				background-position: center center;
+				background-repeat: repeat;
+				height: 1000px;
+		}
+			@include media-breakpoint-up(xs) {
+				height: 500px;
+		}
+		
+	}
+	.img-container-2 {
+		background-image: url(../img/shot-2.png);
+		height: 1000px;
+		background-position: center center;
+		background-size: cover;
+				padding: 0;
+		margin: 0;
+			@include media-breakpoint-up(xs) {
+				height: 500px;
+				background-position: left center;
+		}
+	}
+	.img-container-3 {
+		background-image: url(../img/shot-3.png);
+		height: 1000px;
+		background-position: center center;
+		padding: 0;
+		margin: 0;
+		background-size: cover;
+			@include media-breakpoint-up(xs) {
+				height: 500px;
+				background-position: left center;
+		}
+	}
+	
 	
 	img {
 		width: 100%;
-
 		@include media-breakpoint-up(xs) {
 		margin-top: 20px;
 		}
 	}
-	margin-bottom: 25px;
+	
 }
 
 .view-more-btn {
+	margin-top: 25px;
 	text-align: center;
 }
 
