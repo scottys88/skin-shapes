@@ -57,6 +57,8 @@ $('.mobile-menu-toggle').click(function() {
 
  var bigfeed = new Instafeed({
         get: 'user',
+	 	get: 'tagged',
+	 	tagName: 'shop',
 	 	userId: '3293670556',
 	 	target: 'slider-container',
 	 	clientId: 'f144b7bbf1414833a1f523eea96f9329',

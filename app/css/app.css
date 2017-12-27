@@ -5959,20 +5959,28 @@ h3, h4 {
       padding-left: 20px; }
 
 .hero-area {
-  background-image: url("../img/background-image.png");
-  background-size: contain;
-  background-repeat: no-repeat; }
+  background: linear-gradient(#EFEFEF, #fff); }
   @media (min-width: 768px) {
     .hero-area {
-      height: 70vh;
-      margin-bottom: 50px;
-      background-image: url("../img/background-image.png");
-      background-size: contain;
-      background-repeat: no-repeat; } }
+      height: auto;
+      margin-bottom: 50px; } }
   .hero-area .hero-heading {
     text-align: center;
-    margin: auto;
     font-size: 120%; }
+    .hero-area .hero-heading h1 {
+      display: none; }
+    .hero-area .hero-heading img {
+      height: auto;
+      width: 100%;
+      padding: 20px; }
+      @media (min-width: 768px) {
+        .hero-area .hero-heading img {
+          width: auto;
+          margin-top: 100px;
+          text-align: center;
+          display: block;
+          margin-left: auto;
+          margin-right: auto; } }
 
 body {
   font-family: 'Amatic SC', cursive;

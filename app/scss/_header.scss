@@ -84,19 +84,42 @@
 
 //styles for the hero area
 .hero-area {
-	background-image: url('../img/background-image.png');
-	background-size: contain;
-	background-repeat: no-repeat;
+		
+		background: linear-gradient(#EFEFEF, #fff);
 	@include media-breakpoint-up(md) {
-		height: 70vh;
+		height: auto;
 		margin-bottom: 50px;
-		background-image: url('../img/background-image.png');
-		background-size: contain;
-		background-repeat: no-repeat;
+
 	}
-	.hero-heading {
+	@include media-breakpoint-up(xs) {
+		
+		
+	}
+	.hero-heading  {
 		text-align: center;
-		margin: auto;
 		font-size: 120%;
+		
+			h1 {
+				@include media-breakpoint-up(xs) {
+					display: none;
+				}
+			}
+
+
+			img {
+				@include media-breakpoint-up(xs) {
+					height: auto;
+					width: 100%;
+					padding: 20px;
+				}
+				@include media-breakpoint-up(md) {
+					width: auto;
+					margin-top: 100px;
+					text-align: center;
+					display: block;
+					margin-left: auto;
+					margin-right: auto;
+				}
+			}
 	}
 }
