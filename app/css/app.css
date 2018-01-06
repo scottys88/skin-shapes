@@ -5995,10 +5995,11 @@ h3, h4 {
         margin-bottom: 200px; } }
 
 body {
-  font-family: 'Amatic SC', cursive;
-  background-image: url(../img/skin-shapes-bg.png);
+  font-family: 'Amatic SC', cursive; }
+
+.shop-bg, .about-bg, .contact-bg {
+  background-image: url(../img/skin-shapes-bg-2.png);
   background-repeat: repeat;
-  animation-duration: infinite;
   animation-name: background;
   animation: background 60s linear infinite; }
 

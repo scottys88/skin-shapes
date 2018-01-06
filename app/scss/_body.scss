@@ -1,13 +1,15 @@
 //Body style for fonts, background image
 body {
 	font-family: 'Amatic SC', cursive;
-	background-image: url(../img/skin-shapes-bg.png);
+
+}
+
+.shop-bg, .about-bg, .contact-bg {
+	background-image: url(../img/skin-shapes-bg-2.png);
 	background-repeat: repeat;
-	animation-duration: infinite;
 	animation-name: background;
 	animation: background 60s linear infinite;
 	
-
 }
 
 @keyframes background {
