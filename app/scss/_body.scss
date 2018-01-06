@@ -202,3 +202,40 @@ body {
 	}
 }
 
+//Shop page
+
+
+
+.product-container {
+	margin-top: 50px;
+	background-color: $header-grey;
+	@include media-breakpoint-up(md) {
+		padding: 50px;
+	}	
+	
+
+	@include media-breakpoint-up(xs) {
+		.product-description {
+			padding: 20px;
+		}
+		.shop-button {
+			padding: 0 20px 20px 20px;
+		}
+	}
+	.product-title {
+	text-align: center;
+	}
+	
+	.shop-button {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.slider-shop img {
+		width: auto;
+		
+	}
+	
+	
+}

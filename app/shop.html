@@ -36,197 +36,36 @@
 			<div class="row sub-hero-area">
 				<div class="col-xs-12 sub-hero-heading col-md-12"><h1>Shop</h1></div>
 			</div>
+<!--	start product -->
+		<div class="product-container">
+			<h2 class="product-title">Blue shirt</h2>
 			<div class="row products">
-				<div class="col-md-6"><div id='product-component-d5e0cba73f1'></div>
-<script type="text/javascript">
-/*<![CDATA[*/
-
-(function () {
-  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-  if (window.ShopifyBuy) {
-    if (window.ShopifyBuy.UI) {
-      ShopifyBuyInit();
-    } else {
-      loadScript();
-    }
-  } else {
-    loadScript();
-  }
-
-  function loadScript() {
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = scriptURL;
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-    script.onload = ShopifyBuyInit;
-  }
-
-  function ShopifyBuyInit() {
-    var client = ShopifyBuy.buildClient({
-      domain: 'skin-shapes.myshopify.com',
-      apiKey: 'a700d23acaed7efc9ece2fc54dbc3036',
-      appId: '6',
-    });
-
-    ShopifyBuy.UI.onReady(client).then(function (ui) {
-      ui.createComponent('product', {
-        id: [627476922411],
-        node: document.getElementById('product-component-d5e0cba73f1'),
-        moneyFormat: '%24%7B%7Bamount%7D%7D',
-        options: {
-  "product": {
-    "layout": "horizontal",
-    "variantId": "all",
-    "width": "100%",
-    "contents": {
-      "img": false,
-      "imgWithCarousel": true,
-      "variantTitle": false,
-      "description": true,
-      "buttonWithQuantity": false,
-      "quantity": false
-    },
-    "styles": {
-      "product": {
-        "text-align": "left",
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0",
-          "margin-bottom": "50px"
-        }
-      },
-      "button": {
-        "background-color": "#f1b861",
-        "color": "#000000",
-        "font-family": "Source Sans Pro, sans-serif",
-        ":hover": {
-          "background-color": "#d9a657",
-          "color": "#000000"
-        },
-        ":focus": {
-          "background-color": "#d9a657"
-        },
-        "font-weight": "normal"
-      },
-      "title": {
-        "font-size": "26px"
-      },
-      "price": {
-        "font-size": "18px"
-      },
-      "compareAt": {
-        "font-size": "15px"
-      }
-    },
-    "googleFonts": [
-      "Source Sans Pro"
-    ]
-  },
-  "cart": {
-    "contents": {
-      "button": true
-    },
-    "styles": {
-      "button": {
-        "background-color": "#f1b861",
-        "color": "#000000",
-        "font-family": "Source Sans Pro, sans-serif",
-        ":hover": {
-          "background-color": "#d9a657",
-          "color": "#000000"
-        },
-        ":focus": {
-          "background-color": "#d9a657"
-        },
-        "font-weight": "normal"
-      },
-      "footer": {
-        "background-color": "#ffffff"
-      }
-    },
-    "googleFonts": [
-      "Source Sans Pro"
-    ]
-  },
-  "modalProduct": {
-    "contents": {
-      "img": false,
-      "imgWithCarousel": true,
-      "variantTitle": false,
-      "buttonWithQuantity": true,
-      "button": false,
-      "quantity": false
-    },
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0px",
-          "margin-bottom": "0px"
-        }
-      },
-      "button": {
-        "background-color": "#f1b861",
-        "color": "#000000",
-        "font-family": "Source Sans Pro, sans-serif",
-        ":hover": {
-          "background-color": "#d9a657",
-          "color": "#000000"
-        },
-        ":focus": {
-          "background-color": "#d9a657"
-        },
-        "font-weight": "normal"
-      }
-    },
-    "googleFonts": [
-      "Source Sans Pro"
-    ]
-  },
-  "toggle": {
-    "styles": {
-      "toggle": {
-        "font-family": "Source Sans Pro, sans-serif",
-        "background-color": "#f1b861",
-        ":hover": {
-          "background-color": "#d9a657"
-        },
-        ":focus": {
-          "background-color": "#d9a657"
-        },
-        "font-weight": "normal"
-      },
-      "count": {
-        "color": "#000000",
-        ":hover": {
-          "color": "#000000"
-        }
-      },
-      "iconPath": {
-        "fill": "#000000"
-      }
-    },
-    "googleFonts": [
-      "Source Sans Pro"
-    ]
-  },
-  "productSet": {
-    "styles": {
-      "products": {
-        "@media (min-width: 601px)": {
-          "margin-left": "-20px"
-        }
-      }
-    }
-  }
-}
-      });
-    });
-  }
-})();
-/*]]>*/
-</script></div>
-				<div class="col-md-6"><div id='product-component-985fc4e0cd8'></div>
+				<div class="col-md-12">
+				<div class="row slider-container slider-shop">
+					<div>
+						<img src="img/shot-2.png">
+					</div>
+					<div>
+						<img src="img/blue-shirt-2.png">
+					</div>
+					<div>
+						<img src="img/shot-3.png">
+					</div>		
+				</div>
+				<div class="row slider-buttons">
+					<div class="col-xs-6 col-md-1 offset-md-3 left-arrow">
+						<i class="ion-chevron-left arrow"></i>
+					</div>
+					<div class="col-xs-6 col-md-1 offset-md-4 right-arrow">
+						<i class="ion-chevron-right arrow"></i>
+					</div>
+				</div>
+				</div>
+			</div>
+	<div class="product-description">
+			<p class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel mollis mi, eu placerat ipsum. Etiam et ipsum tristique risus finibus venenatis non sit amet risus.</p>
+			</div>
+		<div class="shop-button"><div id='product-component-6e86c789700'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 
@@ -260,24 +99,24 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: [628278034475],
-        node: document.getElementById('product-component-985fc4e0cd8'),
+        node: document.getElementById('product-component-6e86c789700'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
-    "layout": "horizontal",
     "variantId": "all",
-    "width": "100%",
+    "width": "240px",
     "contents": {
       "img": false,
-      "imgWithCarousel": true,
+      "imgWithCarousel": false,
+      "title": false,
       "variantTitle": false,
-      "description": true,
+      "price": false,
+      "description": false,
       "buttonWithQuantity": false,
       "quantity": false
     },
     "styles": {
       "product": {
-        "text-align": "left",
         "@media (min-width: 601px)": {
           "max-width": "100%",
           "margin-left": "0",
@@ -288,6 +127,9 @@
         "background-color": "#f1b861",
         "color": "#000000",
         "font-family": "Source Sans Pro, sans-serif",
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px",
         ":hover": {
           "background-color": "#d9a657",
           "color": "#000000"
@@ -302,6 +144,11 @@
       },
       "price": {
         "font-size": "18px"
+      },
+      "quantityInput": {
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px"
       },
       "compareAt": {
         "font-size": "15px"
@@ -320,6 +167,9 @@
         "background-color": "#f1b861",
         "color": "#000000",
         "font-family": "Source Sans Pro, sans-serif",
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px",
         ":hover": {
           "background-color": "#d9a657",
           "color": "#000000"
@@ -358,6 +208,9 @@
         "background-color": "#f1b861",
         "color": "#000000",
         "font-family": "Source Sans Pro, sans-serif",
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px",
         ":hover": {
           "background-color": "#d9a657",
           "color": "#000000"
@@ -366,6 +219,11 @@
           "background-color": "#d9a657"
         },
         "font-weight": "normal"
+      },
+      "quantityInput": {
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px"
       }
     },
     "googleFonts": [
@@ -389,7 +247,8 @@
         "color": "#000000",
         ":hover": {
           "color": "#000000"
-        }
+        },
+        "font-size": "18px"
       },
       "iconPath": {
         "fill": "#000000"
@@ -414,9 +273,248 @@
   }
 })();
 /*]]>*/
-</script></div>			
+			</script></div></div>
+	<!--	end product -->
+	<!--	start product -->
+		<div class="product-container">
+			<h2 class="product-title">Blue shirt</h2>
+			<div class="row products">
+				<div class="col-md-12">
+				<div class="row slider-container slider-shop">
+					<div>
+						<img src="img/shot-2.png">
+					</div>
+					<div>
+						<img src="img/blue-shirt-2.png">
+					</div>
+					<div>
+						<img src="img/shot-3.png">
+					</div>		
+				</div>
+				<div class="row slider-buttons">
+					<div class="col-xs-6 col-md-1 offset-md-3 left-arrow">
+						<i class="ion-chevron-left arrow"></i>
+					</div>
+					<div class="col-xs-6 col-md-1 offset-md-4 right-arrow">
+						<i class="ion-chevron-right arrow"></i>
+					</div>
+				</div>
+				</div>
 			</div>
-			
+			<div class="product-description">
+			<p class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel mollis mi, eu placerat ipsum. Etiam et ipsum tristique risus finibus venenatis non sit amet risus.</p>
+			</div>
+			<div class="shop-button"><div id='product-component-5a1ad34bff9'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'skin-shapes.myshopify.com',
+      apiKey: 'a700d23acaed7efc9ece2fc54dbc3036',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [627476922411],
+        node: document.getElementById('product-component-5a1ad34bff9'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "variantId": "all",
+    "width": "240px",
+    "contents": {
+      "img": false,
+      "imgWithCarousel": false,
+      "title": false,
+      "variantTitle": false,
+      "price": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#f1b861",
+        "color": "#000000",
+        "font-family": "Source Sans Pro, sans-serif",
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px",
+        ":hover": {
+          "background-color": "#d9a657",
+          "color": "#000000"
+        },
+        ":focus": {
+          "background-color": "#d9a657"
+        },
+        "font-weight": "normal"
+      },
+      "title": {
+        "font-size": "26px"
+      },
+      "price": {
+        "font-size": "18px"
+      },
+      "quantityInput": {
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px"
+      },
+      "compareAt": {
+        "font-size": "15px"
+      }
+    },
+    "googleFonts": [
+      "Source Sans Pro"
+    ]
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "button": {
+        "background-color": "#f1b861",
+        "color": "#000000",
+        "font-family": "Source Sans Pro, sans-serif",
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px",
+        ":hover": {
+          "background-color": "#d9a657",
+          "color": "#000000"
+        },
+        ":focus": {
+          "background-color": "#d9a657"
+        },
+        "font-weight": "normal"
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    },
+    "googleFonts": [
+      "Source Sans Pro"
+    ]
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#f1b861",
+        "color": "#000000",
+        "font-family": "Source Sans Pro, sans-serif",
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px",
+        ":hover": {
+          "background-color": "#d9a657",
+          "color": "#000000"
+        },
+        ":focus": {
+          "background-color": "#d9a657"
+        },
+        "font-weight": "normal"
+      },
+      "quantityInput": {
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px"
+      }
+    },
+    "googleFonts": [
+      "Source Sans Pro"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Source Sans Pro, sans-serif",
+        "background-color": "#f1b861",
+        ":hover": {
+          "background-color": "#d9a657"
+        },
+        ":focus": {
+          "background-color": "#d9a657"
+        },
+        "font-weight": "normal"
+      },
+      "count": {
+        "color": "#000000",
+        ":hover": {
+          "color": "#000000"
+        },
+        "font-size": "18px"
+      },
+      "iconPath": {
+        "fill": "#000000"
+      }
+    },
+    "googleFonts": [
+      "Source Sans Pro"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+      });
+    });
+  }
+})();
+/*]]>*/
+</script></div>
+		</div>
+	<!--	end product -->
 			<div class="row footer-container">
 				<div class="col-md-3 offset-md-1 shipping-privacy footer-content">
 					<a href="#" class="footer-link">Shipping</a>

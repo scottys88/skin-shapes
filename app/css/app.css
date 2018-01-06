@@ -6121,6 +6121,25 @@ img {
     text-align: center;
     padding: 20px 0 20px 0; }
 
+.product-container {
+  margin-top: 50px;
+  background-color: #F6F6F6; }
+  @media (min-width: 768px) {
+    .product-container {
+      padding: 50px; } }
+  .product-container .product-description {
+    padding: 20px; }
+  .product-container .shop-button {
+    padding: 0 20px 20px 20px; }
+  .product-container .product-title {
+    text-align: center; }
+  .product-container .shop-button {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+  .product-container .slider-shop img {
+    width: auto; }
+
 .footer-container {
   margin-top: 10vh;
   background-color: #EFEFEF; }

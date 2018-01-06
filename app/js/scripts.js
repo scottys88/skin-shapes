@@ -25,8 +25,8 @@ $('.mobile-menu-toggle').click(function() {
 
 
 //Slider carousel
-/*$(document).ready(function(){
-  $('.slider-container').slick({
+$(document).ready(function(){
+  $('.slider-shop').slick({
     accessibility: true,
 	nextArrow: '<img src="../img/chevron_right1600.png" style=  "height: 50px">',
 	centerMode: true,
@@ -51,7 +51,7 @@ $('.mobile-menu-toggle').click(function() {
       }
 	}]
   });
-});*/
+});
 
 //script to bring in instagram feed
 
