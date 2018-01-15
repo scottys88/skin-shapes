@@ -42,7 +42,7 @@
 	}
 
 	z-index: 999;
-	background-color: $primary-color;
+	background-color: #FF96FF;
 
 	.mobile-menu-toggle {
 		float: right;
@@ -129,7 +129,8 @@
 
 .sub-hero-area {
 	text-align: center;
-	background: linear-gradient(#EFEFEF, #fff);
+	/*background: linear-gradient(#EFEFEF, #fff);*/
+	/*opacity: 0.75;*/
 	.sub-hero-heading {
 		@include media-breakpoint-up(md) {
 			font-size: 120%;

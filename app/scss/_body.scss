@@ -39,7 +39,7 @@ body {
 		.intro-image {
 			height: 100%;
 			@include media-breakpoint-up(xs) {
-				width: 100%;
+				width: 50%;
 				height: auto;
 				padding-top: 75px;
 			}
